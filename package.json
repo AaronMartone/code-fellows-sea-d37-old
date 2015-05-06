@@ -1,0 +1,33 @@
+{
+  "name": "codefellows-sead37",
+  "version": "0.1.0",
+  "description": "Project files for SEA-D37 Code Fellows JavaScript Dev Accelerator class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.js",
+    "start": "node server.js"
+  },
+  "author": "Aaron R. Martone <am@aaronmartone.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "chai-http": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-csslint": "^0.4.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jscs": "^1.8.0",
+    "mocha": "^2.2.4"
+  }
+}
